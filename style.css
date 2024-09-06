@@ -1,0 +1,41 @@
+html{
+    height: 100%; /* used to set an element's height */
+}
+.design{
+    background-image: url('hg.jpg'); /*use to put some images to -background */
+    background-repeat: no-repeat; /*to not repeat-the image-in the-background */
+    background-size: 100% 100%; /*to make the-background pic-balance */
+}
+
+form{
+   
+    text-align: center; /* to make the text set in a place to you want to place */
+    color: white; /* text color */
+    position: absolute; /* place of the form */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /*  defines x- and y-coordinates of an element */
+    border-radius: 20px; /* To rounds the corners of an element's outer border edge. */
+    padding: 30px 40px 30px 40px; /* used to generate space around an element's content inside of any defined borders */
+    border: 2px solid white; /* to add the visual border around the elements of the webpage */
+  
+}
+
+h1 h2 {
+    color: #34495e; /* text color */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /*  adds shadow to text */
+}
+
+#Id {
+    font-size: 18px;  /* to set the size of the text */
+    color: #00f83e; /* text color */
+}
+
+.error{
+    color:red; /* text color */
+}
+
+.no-error{
+    color: rgb(208, 255, 0); /* text color */
+}
+
